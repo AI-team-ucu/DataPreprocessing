@@ -21,14 +21,10 @@ We collect data from news YouTube channels (CNN, Fox News, Fox Business, Vice Ne
 - yt-dlp – to download YouTube video data and comments
 - nltk – text preprocessing (tokenization, stopwords, lemmatization)
 - spaCy – additional lemmatization and NLP pipeline
-- TextBlob / VADER – sentiment analysis (baseline models)
-- transformers (BERT) – semantic and deep sentiment analysis
-- LinearSVC – text classification model for fake vs true news detection
 
 ### Workflow
 1. Collect video IDs and download comments.
 2. Clean and validate text.
-3. Analyze sentiment and meaning.
+3. Analyze sentiment and meaning (in another repo).
 4. Use results for fake/true news detection and public perception analysis (in another repo).
 
-### Results
