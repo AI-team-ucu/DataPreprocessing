@@ -23,7 +23,7 @@ We collect data from news YouTube channels (CNN, Fox News, Fox Business, Vice Ne
 - spaCy – additional lemmatization and NLP pipeline
 - TextBlob / VADER – sentiment analysis (baseline models)
 - transformers (BERT) – semantic and deep sentiment analysis
-- LinearCSV – validation and cleaning of CSV data
+- LinearSVC – text classification model for fake vs true news detection
 
 ### Workflow
 1. Collect video IDs and download comments.
